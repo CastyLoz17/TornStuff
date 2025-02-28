@@ -3,7 +3,7 @@ from collections import Counter
 
 reg = input('Input your searchstring here (use . for wildcard characters, e.g. "..l.y" for "silly"): ')
 with open(
-    r"C:\Users\lospo\Desktop\Stuff\Python code\TornCracking\ignis-100K.txt",
+    r"ignis-100K.txt",
     "r",
     encoding="utf-8",
 ) as file:
