@@ -1,7 +1,7 @@
 import requests
 import time
 
-KEY = None  # Only requires a Public Key
+KEY = "REPLACE WITH YOUR OWN KEY!!"  # Only requires a Public Key
 url = "https://api.torn.com/v2/faction/members?striptags=true"
 headers = {"accept": "application/json", "Authorization": f"ApiKey {KEY}"}
 
